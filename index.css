@@ -1,0 +1,344 @@
+body {
+  margin-left: 8%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-areas:
+    "navigation header header header"
+    "navigation card1 card2 card3 "
+    "navigation card1 card2 card4 "
+    "navigation footer footer footer";
+}
+.box {
+  border: 2px solid black;
+}
+.box1 {
+  grid-area: navigation;
+}
+.box2 {
+  grid-area: header;
+}
+.box3 {
+  grid-area: card1;
+}
+.box4 {
+  grid-area: card2;
+}
+.box5 {
+  grid-area: card3;
+}
+.box6 {
+  grid-area: card4;
+}
+.box7 {
+  grid-area: footer;
+}
+.layout2 {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav "
+    "side main main article"
+    "footer footer footer footer";
+}
+.grid {
+  border: 2px solid black;
+}
+.grid1 {
+  grid-area: nav;
+}
+.grid2 {
+  grid-area: side;
+}
+.grid3 {
+  grid-area: main;
+}
+.grid4 {
+  grid-area: article;
+}
+.grid5 {
+  grid-area: footer;
+}
+
+.container1 {
+  display: grid;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  width: 80vw;
+  height: 80vh;
+  grid-template-areas:
+    "nav nav nav"
+    "main about news"
+    "main link ads"
+    "main footer footer";
+}
+.con {
+  border: 1px solid black;
+}
+.con1 {
+  grid-area: nav;
+}
+.con2 {
+  grid-area: main;
+}
+.con3 {
+  grid-area: about;
+}
+.con4 {
+  grid-area: news;
+}
+.con5 {
+  grid-area: link;
+}
+.con6 {
+  grid-area: ads;
+}
+.con7 {
+  grid-area: footer;
+}
+
+.layout4 {
+  display: grid;
+  background-color: #fad961;
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+  width: 80vw;
+  height: 80vh;
+  grid-template-areas:
+    "nav nav hi hi"
+    "nav nav hello hello"
+    "one two three four";
+}
+.lay {
+  border: 2px solid black;
+}
+.lay1 {
+  grid-area: nav;
+}
+.lay2 {
+  grid-area: hi;
+}
+.lay3 {
+  grid-area: hello;
+}
+.lay4 {
+  grid-area: one;
+}
+.lay5 {
+  grid-area: two;
+}
+.lay6 {
+  grid-area: three;
+}
+.lay7 {
+  grid-area: four;
+}
+.layout5 {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  display: grid;
+  width: 80vw;
+  height: 80vh;
+  grid-template-areas:
+    " one one one three four"
+    "two two two two two"
+    "five six seven eigth nine";
+}
+.out {
+  border: 2px solid black;
+}
+.out1 {
+  grid-area: one;
+  background-color: yellow;
+}
+.out2 {
+  grid-area: three;
+  background-color: green;
+}
+.out3 {
+  grid-area: four;
+  background-color: red;
+}
+.out4 {
+  grid-area: two;
+  background-color: pink;
+}
+.out5 {
+  grid-area: five;
+  background-color: blue;
+}
+.out6 {
+  grid-area: six;
+  background-color: tomato;
+}
+.out7 {
+  grid-area: seven;
+  background-color: lightseagreen;
+}
+.out8 {
+  grid-area: eigth;
+  background-color: orange;
+}
+.out9 {
+  grid-area: nine;
+  background-color: blueviolet;
+}
+.layout6 {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  display: grid;
+  width: 80vw;
+  height: 80vh;
+  grid-template-areas:
+    "nav hi hi hello hello"
+    "nav  main  one one two"
+    "three  main  one one two"
+    "three four four five two";
+}
+.lay6 {
+  border: 2px solid black;
+}
+.lay61 {
+  grid-area: nav;
+}
+.lay62 {
+  grid-area: hi;
+}
+.lay63 {
+  grid-area: hello;
+}
+.lay64 {
+  grid-area: main;
+}
+.lay65 {
+  grid-area: one;
+}
+.lay66 {
+  grid-area: two;
+}
+.lay67 {
+  grid-area: three;
+}
+.lay68 {
+  grid-area: four;
+}
+.lay69 {
+  grid-area: five;
+}
+.layout7 {
+  display: grid;
+  background-color: lightgrey;
+  height: 80vh;
+  width: 80vw;
+  grid-template-areas:
+    "nav one one two"
+    "nav three four five"
+    "nav six seven five";
+  gap: 2px 2px;
+}
+.lay7 {
+  border: 1px solid black;
+}
+.lay71 {
+  grid-area: nav;
+  background-color: green;
+}
+.lay72 {
+  grid-area: one;
+  background-color: green;
+}
+.lay73 {
+  grid-area: two;
+  background-color: red;
+}
+.lay74 {
+  grid-area: three;
+  background-color: orange;
+}
+.lay75 {
+  grid-area: four;
+  background-color: red;
+}
+.lay76 {
+  grid-area: five;
+  background-color: green;
+}
+.lay77 {
+  grid-area: six;
+  background-color: red;
+}
+.lay78 {
+  background-color: orange;
+  grid-area: seven;
+}
+
+.layout8 {
+  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+  display: grid;
+  width: 80vw;
+  height: 80vh;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "w m  m s o"
+    "w t  j j o"
+    "f f  f f f";
+}
+.lay8 {
+  border: 2px solid white;
+}
+.lay81 {
+  grid-area: nav;
+}
+
+.lay82 {
+  grid-area: w;
+}
+.lay83 {
+  grid-area: m;
+}
+.lay84 {
+  grid-area: s;
+}
+.lay85 {
+  grid-area: o;
+}
+.lay86 {
+  grid-area: t;
+}
+.lay87 {
+  grid-area: j;
+}
+.lay88 {
+  grid-area: o;
+}
+.lay89 {
+  grid-area: f;
+}
